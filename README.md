@@ -29,16 +29,14 @@ It uses a **Linear Regression model** for training and a **Streamlit app** for i
 ### 1️⃣ Install  dependencies  
 ```bash
 pip install streamlit scikit-learn pandas joblib
-
-2️⃣ Train  the model
+```
+### 2️⃣ Train  the model
 Run the training script to generate `mymarksmodel`:  
-
 ```bash
 python model.py
-
-3️⃣ Launch  the Streamlit app
+```
+### 3️⃣ Launch  the Streamlit app
 
 ```bash
 streamlit run marks_predictor_model.py
-
----
+```
